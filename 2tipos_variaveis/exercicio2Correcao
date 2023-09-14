@@ -1,0 +1,19 @@
+x = "20"
+y = "5"
+
+x = int(x)
+y = int(y)
+r = x - y
+print(f"A subtração de {x} - {y} = {r} tipo é {type(r)}")
+r = x + y
+print(f"A soma de {x} + {y} = {r} tipo é {type(r)}")
+r = x / y
+print(f"A divisão de {x} / {y} = {r} tipo é {type(r)}")
+r = x * y
+print(f"A multiplicação de {x} * {y} = {r} tipo é {type(r)}")
+r = x % y
+print(f"O módulo de {x} % {y} = {r} tipo é {type(r)}")
+r = x // y
+print(f"A divisão de {x} // {y} = {r} tipo é {type(r)}")
+r = x ** y
+print(f"A exponenciação de {x} ** {y} = {r} tipo é {type(r)}")
