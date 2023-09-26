@@ -4,9 +4,11 @@ numeroJogador = int(input("Entre com um número entre 1 a 1000: "))
 if ((escolhaJogador == "1") or (escolhaJogador == "ímpar") or (escolhaJogador == "Ímpar") or (escolhaJogador == "Impar") or (escolhaJogador == "impar")):
     escolhaJogador = "impar"
     print(f"Sua escolha foi ímpar e o número foi {numeroJogador}")
-if ((escolhaJogador == "2") or (escolhaJogador == "par") or (escolhaJogador == "Par") or escolhaJogador == "par"):
+elif ((escolhaJogador == "2") or (escolhaJogador == "par") or (escolhaJogador == "Par") or escolhaJogador == "par"):
     escolhaJogador = "par"
     print(f"Sua escolha foi par e o número foi {numeroJogador}")
+else:
+    print ("Escolha inválida...")
 
 print("Sorteando número para mim...")
 numeroMaquina = random.randint(1, 1000)
