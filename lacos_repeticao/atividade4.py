@@ -23,8 +23,7 @@ while run:
 [1] Tranformar em um animal 
 [2] Jogo druídico 
 [3] Conversar com o animal
-[4] Sair do jogo
-                        
+[4] Sair do jogo                        
 Faça sua escolha: ''')
     print("\n")
     
@@ -40,8 +39,7 @@ Faça sua escolha: ''')
                 jogador = input ('''*** MENU de BICHOS ***
 [1] 🐻 Urso 
 [2] 🦅 Águia 
-[3] 🐺 Lobo
-                        
+[3] 🐺 Lobo                        
 Faça sua escolha: ''')
                 if jogador not in ["1", "2", "3"]:
                     print("Escolha inválida, tente novamente...\n")
